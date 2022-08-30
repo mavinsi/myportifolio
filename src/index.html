@@ -35,11 +35,11 @@
       <div
         class=" duration-700 container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         <div class="flex flex-col justify-center p-6 text-left rounded-sm lg:max-w-3xl  lg:text-left">
-          <h1 class="text-7xl italic font-bold text-gray-700 leading-none text-center sm:text-left sm:text-[4rem]">
+          <h1 class="text-4xl italic font-bold text-gray-700 leading-none text-center sm:text-left sm:text-[4rem]">
             Welcome, it's my developer <span class="text-violet-600">portfolio</span>.
           </h1>
           <div class="">
-            <p class="italic mt-6 mb-8 text-3xl sm:text-3xl text-center sm:text-left font-thin sm:mb-12 ">
+            <p class="italic mt-6 mb-8 text-xl sm:text-3xl text-center sm:text-left font-thin sm:mb-12 ">
               Are you looking for a programmer to develop a system with efficiency and practicality for your company?
               then you came to the right place.
             </p>
@@ -49,7 +49,7 @@
         </div>
 
         <div class="flex items-center justify-center ">
-         
+
           <img class="object-contain sm:w-[550px]" src="./imgs/developer-activity-animate.svg" alt="">
         </div>
 
@@ -115,14 +115,14 @@
         <div class="flex  items-center justify-center -mt-8">
           <img class=" object-contain sm:w-[650px]" src="./imgs/coding-animate.svg" alt="">
 
-     
+
         </div>
         <div class="duration-700  flex flex-col justify-center text-left rounded-sm max-w-full lg:text-left">
-          <h1 class="text-[4rem] italic font-bold sm:text-left text-center leading-none ">I'm <span
+          <h1 class="text-4xl sm:text-[4rem] italic font-bold sm:text-left text-center leading-none ">I'm <span
               class="text-violet-500">Marcus Rodrigues</span>,<br>a full-stack developer.
           </h1>
-          <p class="mt-6 mb-8 italic text-center sm:text-left font-thin text-3xl sm:mb-12 max-w-[40rem]">Specialized
-            in web services development, modern languages, efficient and fast development, with the ability to work in
+          <p class="mt-6 mb-8 italic text-center sm:text-left font-thin text-xl sm:text-3xl sm:mb-12 max-w-[40rem]">Specialized
+            in web services, modern languages, efficient and fast development, with the ability to work in
             groups, code versioning and much more.
           </p>
           <div class="flex ">
@@ -232,32 +232,33 @@
 
     <div class="duration-700 text-gray-700 container flex flex-col  p-6 mx-auto  lg:flex-row lg:justify-between  ">
       <div class="flex  items-center justify-center -mt-8">
-        <img class="w-[650px]" src="./imgs/email-capture-animate.svg" alt="">
-
-    
+        <img class="w-[100%] sm:w-[700px]" src="./imgs/work-anniversary-animate.svg" alt="">
       </div>
       <div class="duration-700  flex flex-col justify-center text-left rounded-sm max-w-full lg:text-left">
-        <h1 class="text-[4rem] italic font-bold sm:text-left text-center leading-none ">Interested in my <span class="text-violet-500">work</span>? <br> send me an <span class="text-violet-500">email</span>.
+        <h1 class="text-4xl sm:text-[4rem] italic font-bold sm:text-left text-center leading-none ">Interested in my <span
+            class="text-violet-500">work</span>? <br> send me an <span class="text-violet-500">email</span>.
         </h1>
-        <p class="mt-6 mb-8 italic text-center  sm:text-left font-thin text-3xl sm:mb-12 sm:max-w-[40rem]">And if you want to know more about me, about my projects, languages and framework that I use and more, I advise visiting my profile on github.
+        <p class="mt-6 mb-8 italic text-center  sm:text-left font-thin  text-xl sm:text-3xl sm:mb-12 sm:max-w-[40rem]">And if you
+          want to know more about me, about my projects, languages and framework that I use and more, I advise visiting
+          my profile on github.
         </p>
-        <a href="" rel="noopener noreferrer" href="#"
-        class=" mb-4 mx-auto sm:mx-0 px-16 py-3 text-lg text-center font-semibold rounded-full bg-violet-600 text-white hover:bg-violet-200 duration-500">
-        Contact me<i class="ml-2 fa-solid fa-envelope-circle-check"></i></i></a>
-        <a href="" rel="noopener noreferrer" href="#"
-        class=" mx-auto sm:mx-0 px-16 py-3 text-lg text-center font-semibold rounded-full   bg-white  border border-violet-600 text-violet-600 hover:bg-violet-200  duration-500">
-        Visit my github <i class="ml-2 fa-solid fa-code"></i></a>
-     
+        <a href="https://wa.me/5521993982865" rel="noopener noreferrer" href="#"
+          class=" mb-4 mx-auto sm:mx-0 px-16 py-3 text-lg text-center font-semibold rounded-full bg-violet-600 text-white hover:bg-violet-200 duration-500">
+          Send message<i class="ml-2 fa-brands fa-whatsapp"></i></i></a>
+        <a href="https://github.com/mavinsi" rel="noopener noreferrer" href="#"
+          class=" mx-auto sm:mx-0 px-16 py-3 text-lg text-center font-semibold rounded-full   bg-white  border border-violet-600 text-violet-600 hover:bg-violet-200  duration-500">
+          Visit my github <i class="ml-2 fa-solid fa-code"></i></a>
+
       </div>
 
 
-            
+
 
 
     </div>
 
 
-  
+
   </section>
 
 
@@ -316,8 +317,8 @@
 
 
   function backBtnAction() {
-   data.page = data.page - 1
-   goPage(data.page)
+    data.page = data.page - 1
+    goPage(data.page)
   }
   function goPage(page) {
     scrollTop()
@@ -340,14 +341,14 @@
       docAbout.style.display = "block"
       docSkill.style.display = "none"
       docInicio.style.display = "none"
-      pageButton.innerHTML = `My skills <i class="ml-2 fa-solid fa-angle-right"></i>`
+      pageButton.innerHTML = `Contact me <i class="ml-2 fa-solid fa-angle-right"></i>`
       backButton.style.display = "block"
       pageButton.style.display = "block"
 
     }
 
     if (page == 2) {
- 
+
       scrollTop()
 
       docSkill.style.display = "block"
