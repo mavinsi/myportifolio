@@ -34,13 +34,12 @@
         class=" duration-700 container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         <div class="flex flex-col justify-center p-6 text-left rounded-sm lg:max-w-3xl  lg:text-left">
           <h1 id="initialTitle"
-            class="text-5xl italic  font-bold text-gray-700 leading-none text-left sm:text-left sm:text-[4rem]">
+            class="text-5xl -mx-5  italic  font-bold text-gray-700 leading-none text-left sm:text-left sm:text-[4rem]">
 
           </h1>
           <div class="">
             <p id="initialSecond"
-              class="italic mt-6 mb-8 text-2xl sm:text-3xl text-left sm:text-left font-thin sm:mb-12 ">
-
+              class="italic mt-6 mb-8 text-2xl -mx-5  sm:text-3xl text-justify sm:text-left font-thin sm:mb-12 ">
             </p>
 
           </div>
@@ -51,7 +50,10 @@
 
           <img class="object-contain w-[300px] sm:w-[550px]" src="./imgs/developer-activity-animate.svg" alt="">
         </div>
-
+        <div class="flex sm:hidden justify-center mt-8">
+         
+        <i class="mx-auto fa-2xl fa-solid fa-angles-down text-gray-300"></i>
+      </div>
       </div>
 
     </section>
@@ -126,10 +128,10 @@
 
         </div>
         <div class="duration-700  flex flex-col justify-center text-left rounded-sm lg:text-left">
-          <h1 id="aboutTitle" class="text-4xl sm:text-[4rem] italic font-bold  sm:text-left text-center leading-none ">
+          <h1 id="aboutTitle" class="text-[2.15rem] -mx-4  sm:mx-0 sm:text-[4rem] italic font-bold  sm:text-left text-center leading-none ">
           </h1>
           <p id="aboutSecond"
-            class="mt-6 mb-8 italic text-justify font-thin text-2xl  sm:mx-0 sm:text-3xl sm:mb-12 max-w-[40rem]">
+            class="mt-6 mb-8 italic text-center font-thin text-2xl  sm:mx-0 sm:text-3xl sm:mb-12 max-w-[40rem]">
             Specialized
 
           </p>
@@ -251,12 +253,10 @@
         <img class="w-[100%] sm:w-[700px]" src="./imgs/work-anniversary-animate.svg" alt="">
       </div>
       <div class="duration-700  flex flex-col justify-center text-left rounded-sm max-w-full lg:text-left">
-        <h1 id="skillsTitle" class="text-4xl sm:text-[4rem] italic font-bold sm:text-left text-center leading-none ">
+        <h1 id="skillsTitle" class="text-[2.15rem] -mx-5   sm:mx-0 sm:text-[4rem] italic font-bold sm:text-left text-center leading-none ">
         </h1>
         <p id="skillsSecond"
-          class="mt-6 mb-8 italic text-center  sm:text-left font-thin  text-xl sm:text-3xl sm:mb-12 sm:max-w-[40rem]">
-          And if you want to know more about me, about my projects, languages and framework that I use and more, I
-          advise visiting my profile on github.
+          class="mt-6 mb-8 italic text-center break-words sm:text-left font-thin  text-xl sm:text-3xl sm:mb-12 sm:max-w-[40rem]">
         </p>
         <a id="messageButton" href="https://wa.me/5521993982865" rel="noopener noreferrer" href="#"
           class=" mb-4 mx-auto sm:mx-0 px-16 py-3 text-lg text-center font-semibold rounded-full bg-violet-600  hover:border hover:border-violet-600 text-white hover:bg-white hover:text-violet-500 duration-500">
@@ -372,14 +372,14 @@
   let JSONlanguage = {
     pt: {
       titles: {
-        initial: `Bem-vindo, esse é o meu <span class="text-violet-600">portifólio</span> de desenvolvedor.`,
+        initial: `Bem-vindo, esse é o  <br class="hidden sm:block "> meu <span class="text-violet-600">portifólio</span> de desenvolvedor.`,
         about: `Sou <span class="text-violet-500">Marcus Rodrigues</span>,<br> full-stack developer.`,
         skills: `Gostou do <spanclass="text-violet-500">portifólio</span>? <br> envie uma <span class="text-violet-500">mensagem</span>.`
       },
       second: {
         initial: `você está procurando um programador para desenvolver um sistema com eficiência e praticidade para sua empresa? então você veio para o lugar certo.`,
         about: `em serviços web, linguagens modernas, desenvolvimento eficiente e rápido, com a capacidade de trabalhar em grupos, versão de código e muito mais.`,
-        skills: `e se você quiser saber mais sobre mim, sobre meus projetos, idiomas e estrutura que eu uso e muito mais, aconselho visitar meu perfil no github.`
+        skills: `e se você quiser saber mais sobre mim, sobre meus projetos, idiomas e estruturas que eu uso e muito mais, aconselho visitar meu perfil no github.`
       },
       content: {
         initial: {
@@ -412,7 +412,7 @@
     },
     en: {
       titles: {
-        initial: `Welcome, it's my developer <span class="text-violet-600">portfolio</span>.`,
+        initial: `Welcome, this is my developer <span class="text-violet-600">portfolio</span>.`,
         about: `I'm <span class="text-violet-500">Marcus Rodrigues</span>,<br>a full-stack developer.`,
         skills: `Interested in my <spanclass="text-violet-500">work</span>? <br> send me an <span class="text-violet-500">message</span>.`
       },
@@ -453,7 +453,6 @@
     }
   }
 
-  console.log(JSONlanguage.pt.nav.back)
   let data = {
     page: 0,
     language: "pt"
