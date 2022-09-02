@@ -617,11 +617,6 @@ video {
   margin-right: auto;
 }
 
-.-mx-5{
-  margin-left: -1.25rem;
-  margin-right: -1.25rem;
-}
-
 .-mx-4{
   margin-left: -1rem;
   margin-right: -1rem;
@@ -632,9 +627,9 @@ video {
   margin-right: 2rem;
 }
 
-.mx-5{
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
+.-mx-5{
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
 }
 
 .-mt-8{
@@ -647,10 +642,6 @@ video {
 
 .mb-8{
   margin-bottom: 2rem;
-}
-
-.ml-8{
-  margin-left: 2rem;
 }
 
 .-mt-4{
@@ -1022,9 +1013,8 @@ video {
   vertical-align: middle;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-\[2\.60rem\]{
+  font-size: 2.60rem;
 }
 
 .text-2xl{
@@ -1042,6 +1032,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-\[2\.15rem\]{
   font-size: 2.15rem;
 }
@@ -1051,28 +1046,12 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[2\.25rem\]{
-  font-size: 2.25rem;
-}
-
-.text-\[2\.30rem\]{
-  font-size: 2.30rem;
-}
-
 .text-\[2\.50rem\]{
   font-size: 2.50rem;
 }
 
-.text-\[2\.60rem\]{
-  font-size: 2.60rem;
-}
-
-.text-\[2\.70rem\]{
-  font-size: 2.70rem;
-}
-
-.text-\[2\.65rem\]{
-  font-size: 2.65rem;
+.text-\[2\.20rem\]{
+  font-size: 2.20rem;
 }
 
 .font-semibold{
@@ -1199,11 +1178,6 @@ video {
 
 .ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.first-letter\:-mx-4::first-letter{
-  margin-left: -1rem;
-  margin-right: -1rem;
 }
 
 .first-letter\:max-w-md::first-letter{
