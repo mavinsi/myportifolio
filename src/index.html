@@ -560,7 +560,7 @@
 
     if (data.page == 0) {
 
-      scrollTop()
+     
       pageButton.innerHTML = lang.nav.about
       docAbout.style.display = "none"
    
@@ -570,9 +570,10 @@
       pageButton.style.borderTopRightRadius = "0px"
       pageButton.style.borderBottomRightRadius = "0px"
       pageButton.style.display = "block"
+      scrollTop()
     }
     if (data.page == 1) {
-      scrollTop()
+     
       pageButton.innerHTML = lang.nav.contact
       docAbout.style.display = "block"
       docAbout.classList.add("animate__animated")
@@ -586,7 +587,7 @@
       backButton.style.display = "block"
       pageButton.style.display = "block"
 
-
+      scrollTop()
     }
     if (data.page == 2) {
 
@@ -598,6 +599,7 @@
       docAbout.style.display = "none"
       pageButton.style.display = "none"
       backButton.style.display = "block"
+      scrollTop()
     }
   }
 
