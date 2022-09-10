@@ -1013,8 +1013,8 @@ video {
   vertical-align: middle;
 }
 
-.text-\[2\.60rem\]{
-  font-size: 2.60rem;
+.text-\[2\.20rem\]{
+  font-size: 2.20rem;
 }
 
 .text-2xl{
@@ -1044,14 +1044,6 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[2\.50rem\]{
-  font-size: 2.50rem;
-}
-
-.text-\[2\.20rem\]{
-  font-size: 2.20rem;
 }
 
 .font-semibold{

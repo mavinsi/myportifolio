@@ -8,6 +8,10 @@
   <title>Marcus Rodrigues Portfolio</title>
   <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
   <link href="output.css" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 </head>
 
 <body class="bg-white">
@@ -27,9 +31,9 @@
       </div>
   </header>
 
-  <section class=" inicio" style="display:block;" id="inicio">
+  <section class=" inicio" class="" style="display:block;" id="inicio">
 
-    <section class="-mt-8 sm:-mt-20">
+    <section class=" animate__animated animate__fadeInRight -mt-8 sm:-mt-20">
       <div
         class=" duration-700 container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         <div class="flex flex-col justify-center p-6 text-left rounded-sm lg:max-w-3xl  lg:text-left">
@@ -59,7 +63,7 @@
       </div>
 
     </section>
-    <section class="inicio2 justify-center mt- sm:-mt-20 text-gray-600  body-font">
+    <section class="inicio2 animate__animated animate__fadeInRight justify-center mt- sm:-mt-20 text-gray-600  body-font">
       <div class="duration-700 container px-5 py-12 mx-auto">
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
           <div class="mx-auto p-4 md:w-1/3 flex flex-col text-center items-center">
@@ -95,7 +99,7 @@
           <div class="mx-auto p-4 md:w-1/3 flex flex-col text-center items-center">
             <div
               class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-violet-100 text-violet-500 mb-5 flex-shrink-0">
-              <i class="animate-bounce fa-solid fa-shield-halved fa-2xl"></i>
+              <i class=" fa-solid fa-shield-halved fa-2xl"></i>
             </div>
             <div class="flex-grow">
               <h2 id="contentInitialTitle3"
@@ -559,7 +563,9 @@
       scrollTop()
       pageButton.innerHTML = lang.nav.about
       docAbout.style.display = "none"
+   
       docInicio.style.display = "block"
+     
       backButton.style.display = "none"
       pageButton.style.borderTopRightRadius = "0px"
       pageButton.style.borderBottomRightRadius = "0px"
@@ -569,6 +575,8 @@
       scrollTop()
       pageButton.innerHTML = lang.nav.contact
       docAbout.style.display = "block"
+      docAbout.classList.add("animate__animated")
+      docAbout.classList.add("animate__fadeInRight")
       docSkill.style.display = "none"
       docInicio.style.display = "none"
       backButton.style.borderTopLeftRadius = "500px"
@@ -585,6 +593,8 @@
       backButton.style.borderTopLeftRadius = "0px"
       backButton.style.borderBottomLeftRadius = "0px"
       docSkill.style.display = "block"
+      docSkill.classList.add("animate__animated")
+      docSkill.classList.add("animate__fadeInRight")
       docAbout.style.display = "none"
       pageButton.style.display = "none"
       backButton.style.display = "block"
