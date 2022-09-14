@@ -627,15 +627,6 @@ video {
   margin-right: 2rem;
 }
 
-.-mx-5{
-  margin-left: -1.25rem;
-  margin-right: -1.25rem;
-}
-
-.-mt-8{
-  margin-top: -2rem;
-}
-
 .mt-6{
   margin-top: 1.5rem;
 }
@@ -664,12 +655,20 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.-mt-8{
+  margin-top: -2rem;
+}
+
 .ml-2{
   margin-left: 0.5rem;
 }
 
 .mb-4{
   margin-bottom: 1rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .mt-16{
@@ -843,6 +842,12 @@ video {
           animation: bounce 1s infinite;
 }
 
+.select-none{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -976,6 +981,16 @@ video {
   padding-bottom: 3rem;
 }
 
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .px-16{
   padding-left: 4rem;
   padding-right: 4rem;
@@ -984,11 +999,6 @@ video {
 .px-60{
   padding-left: 15rem;
   padding-right: 15rem;
-}
-
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .py-16{
@@ -1013,18 +1023,27 @@ video {
   vertical-align: middle;
 }
 
-.text-\[2\.20rem\]{
-  font-size: 2.20rem;
+.font-Montserrat{
+  font-family: Montserrat, sans-serif;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-\[2\.50rem\]{
+  font-size: 2.50rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-lg{
@@ -1037,21 +1056,8 @@ video {
   line-height: 2.5rem;
 }
 
-.text-\[2\.15rem\]{
-  font-size: 2.15rem;
-}
-
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .font-semibold{
   font-weight: 600;
-}
-
-.font-bold{
-  font-weight: 700;
 }
 
 .font-thin{
@@ -1064,6 +1070,10 @@ video {
 
 .font-medium{
   font-weight: 500;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .italic{
@@ -1261,12 +1271,12 @@ video {
     margin-top: 0px;
   }
 
-  .sm\:block{
-    display: block;
-  }
-
   .sm\:inline-block{
     display: inline-block;
+  }
+
+  .sm\:inline{
+    display: inline;
   }
 
   .sm\:hidden{
@@ -1334,6 +1344,10 @@ video {
   .sm\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-\[3\.70rem\]{
+    font-size: 3.70rem;
   }
 }
 
