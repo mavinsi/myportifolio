@@ -1,5 +1,5 @@
 .gradient-background {
-    background: linear-gradient(270deg, #221a32, #0f172a, #0f1a35);
+    background: linear-gradient(270deg, #0a1629, #0f172a, #0f1a35);
     background-size: 600% 600%;
 
     -webkit-animation: AnimationName 32s ease infinite;
