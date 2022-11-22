@@ -1,3 +1,27 @@
+.gradient-background {
+    background: linear-gradient(270deg, #221a32, #0f172a, #0f1a35);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 32s ease infinite;
+    -moz-animation: AnimationName 32s ease infinite;
+    animation: AnimationName 32s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 .floating { 
     animation-name: floating;
     animation-duration: 3s;

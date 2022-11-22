@@ -12,8 +12,7 @@
   <link href="output.css" rel="stylesheet">
 
   <meta name="title" content="Marcus Rodrigues - Portifolio ">
-  <meta name="description"
-    content="!">
+  <meta name="description" content="!">
 
 
 
@@ -21,8 +20,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mvrodrigues.vercel.app">
   <meta property="og:title" content="Marcus Rodrigues - Portifolio">
-  <meta property="og:description"
-    content="Hi! my name is Marcus and welcome to my developer and web design portfolio.">
+  <meta property="og:description" content="Hi! my name is Marcus and welcome to my developer and web design portfolio.">
   <meta property="og:image" content="./imgs/meta-banner.png">
 
   <!-- Twitter -->
@@ -52,23 +50,25 @@
 </head>
 
 <body style="">
-  <aside style="background-image:url(./imgs/background.jpg); " class="bg-cover bg-no-repeat">
-    <div class=" backdrop-blur-3xl p-32 flex flex-col items-center justify-center h-screen bg-gray-900/90">
+
+    <div class=" backdrop-blur-3xl p-32 flex flex-col items-center justify-center h-screen gradient-background">
 
       <div class="flex flex-col items-center justify-center">
         <div style="transform: translateZ(20px)"
-          class="select-none bg-gray-900 floating  -mb-20 reveal_bottom flex flex-col floating items-center  justify-center sm:w-[25rem] w-[23rem] drop-shadow-xl">
-
-          <img style="transform-style: preserve-3d;   transform: perspective(1000px);"
-            class=" rounded-full  scale_up w-[90%] sm:w-[100%] -mt-40 mb-4" src="./imgs/avataredit.png">
+          class=" bg-gray-900 floating  -mb-20 reveal_bottom flex flex-col floating items-center  justify-center sm:w-[25rem] w-[23rem] drop-shadow-xl">
+          <div  class="flex justify-center item-center hover:scale-110 duration-700 ">
+            <img
+              class=" scale_up_delay w-[90%] sm:w-[100%] -mt-40 mb-4 rounded-full duration-700 " alt="My 3d avatar"
+              src="./imgs/avataredit.png">
+          </div>  
           <div class="grid grid-cols-2 gap-1 justify-items-center">
             <a href="https://medium.com/trainingcenter/o-que-%C3%A9-um-software-engineer-8631b2eb69f2"
-              class=" scale_up  py-2 mt-2 flex items-center text-xs px-3 text-center rounded text-indigo-500 border border-indigo-500 undefined ">
+              class=" scale_up  py-2 mt-2 flex items-center text-xs sm:text-sm px-3 text-center rounded text-indigo-500 border border-indigo-500 undefined ">
               <i class="fa-solid fa-code mr-2 "></i>
               Software Enginner
             </a>
             <span
-              class="px-3 scale_up py-2 mt-2 flex items-center text-xs rounded text-indigo-500 border border-indigo-500 undefined ">
+              class="px-3 scale_up py-2 mt-2 flex items-center text-xs sm:text-sm rounded text-indigo-500 border border-indigo-500 undefined ">
               <i class="fa-solid fa-palette mr-2"></i>
               UI/UX Designer
             </span>
@@ -78,13 +78,13 @@
             web applications and design, working in the area for more than 3 years as a full-stack, I am also a
             contributor to several open-source projects.</p>
           <a href="https://g.dev/mvdev"
-            class="p-4 scale_up_delay text-xl w-full   text-center border-b-4 border-indigo-600 duration-700 font-medium hover:text-indigo-700/50 hover:border-indigo-800/50 text-indigo-600 ">Next
+            class=" p-4 reveal_bottom text-xl w-full   text-center border-b-4 border-indigo-600 duration-700 font-medium hover:text-indigo-700/50 hover:border-b-0 text-indigo-600 ">Next
             <i class="fa-solid fa-chevron-right"></i></a>
         </div>
       </div>
-
     </div>
-  </aside>
+
+
 </body>
 <script type="text/javascript" src="./assets/scripts/tilt.js"></script>
 <script src="./assets/scripts/scrollreveal.js"></script>
